@@ -15,6 +15,7 @@ var onStatus302 = function(base_uri, redir_uri) {
     var new_uri = base_uri /** + ';' + sessionid */ + '?' + unique_key;
     return new_uri;
 };
+var testVar = "Hello play.js";
 
 var options = {
     method: 'POST',
